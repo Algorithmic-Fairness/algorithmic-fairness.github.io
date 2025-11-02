@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AlFa Research Lab - Research Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo typed-logo"></div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="publication.html">Publications</a></li>
+      <li><a href="projects.html" class="active">Research Projects</a></li>
+      <li><a href="data.html">Data & Code</a></li>
+	  <li><a href="vacancies.html">Join us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="publications">
+  <h1>Data & Code</h1>
+
+  <p class="intro-text">
+    We have curated and shared a range of datasets that support our research studies, all of which are publicly available for academic 
+    and non-commercial use. Each dataset complies with the respective platform’s data-sharing policies; for example, Twitter datasets 
+    adhere to <strong>X’s official data access and redistribution guidelines</strong>. Our accompanying code repositories ensure transparency and reproducibility 
+    across all analyses. If you would like additional information or access details, please feel free to <strong>contact us via email</strong>.
+  </p>
+
+  <h2>Datasets:</h2>
+
+  <div class="dataset-list">
+    <div class="dataset">
+      <h3>1. Rabobank Dataset</h3>
+      <p>
+        The dataset contains anonymized records of bank accounts and transactions within Rabobank over an 11-year period from 2010 to 2020. 
+        For every pair of accounts with at least one transaction, the data includes the number of transactions and the total amount of money 
+        transferred between them. In total, the dataset covers <strong>1,624,030 bank accounts</strong> and <strong>4,127,043 transactions</strong>, represented as 
+        (from account, to account) pairs.
+      </p>
+      <p>
+        Two weighted network representations are provided:
+        <br>(i) <strong>GT Network:</strong> Edge weight represents the total money transferred between two accounts.
+        <br>(ii) <strong>GN Network:</strong> Edge weight represents the total number of transactions between two accounts.
+      </p>
+      <p>
+        The dataset is available at: 
+        <a href="https://github.com/akratiiet/RaboBank_Dataset" target="_blank">https://github.com/akratiiet/RaboBank_Dataset</a>
+      </p>
+    </div>
+
+    <div class="dataset">
+      <h3>2. Soccer X Dataset</h3>
+      <p>
+        The dataset comprises soccer-related tweets collected from Twitter over a three-month period (March – June, 2022) using a 
+        comprehensive set of keywords and hashtags related to global and regional football events. Gender information of users was 
+        inferred using <strong>Genderize.io</strong> and <strong>Namepedia</strong>, and tweets from users with undetermined gender were excluded.
+      </p>
+      <p>
+        For English (en) tweets, the dataset contains <strong>6,957,598 tweets</strong> — <strong>5,767,122</strong> from male users and 
+        <strong>1,190,476</strong> from female users. For Portuguese (pt) tweets, the dataset includes <strong>2,572,247 tweets</strong>, 
+        comprising <strong>2,011,286</strong> from males and <strong>560,961</strong> from females, contributed by 
+        <strong>365,045 male</strong> and <strong>148,539 female</strong> unique users.
+      </p>
+      <p>
+        Across both languages, male users form the majority in both total tweet volume and user participation throughout the collection period. 
+        The dataset is available at: 
+        <a href="https://github.com/akratiiet/Soccer-Twitter-Dataset" target="_blank">https://github.com/akratiiet/Soccer-Twitter-Dataset</a>
+      </p>
+    </div>
+	<div class="dataset">
+      <h3>3. Academic Twitter Dataset</h3>
+      <p>
+        This dataset was collected from Twitter for research purposes and utilized in the "Academic Twitter: Gender-based Differences in Content,
+		Emotion, and Public Response" research paper. It contains information about academic users, their posts, and replies. The data can be used 
+		for studies involving academic communication, social media activity patterns, network analysis, or sentiment dynamics in academic communities.
+		
+      </p>
+      <p>
+        The dataset is available at: 
+        <a href=" https://github.com/akratiiet/Academic_Twitter_Dataset " target="_blank"> https://github.com/akratiiet/Academic_Twitter_Dataset </a>
+      </p>
+    </div>
+	
+	<div class="dataset">
+      <h3>4. Dutch Politics</h3>
+      <p>
+       This dataset was collected from <strong>Bluesky</strong> and contains posts related to political discussions in <strong>Dutch and English</strong>. Data collection focused on 
+	   <strong>467 political hashtags</strong>, identified through an iterative expansion process that began with hashtags of Dutch governing parties and filtered to 
+	   retain only those related to politics. Posts containing these hashtags were gathered over a <strong>three-month period (March 17 – June 17, 2025)</strong>. 
+	   Each record includes both the post content and the corresponding <strong>user metadata</strong>. The dataset comprises <strong>38,824 posts</strong> from <strong>7,229 unique users</strong>. 
+	   User gender was inferred using <strong>NameAPI’s genderize function</strong> based on display names (or handles when unavailable). This dataset provides a 
+	   valuable resource for analyzing political discourse and user participation patterns in Dutch social media spaces. The dataset is available 
+	   <strong>upon request via email</strong>.
+		
+      </p>
+      </div>
+	  
+	  <div class="dataset">
+      <h3>5. EU Politician X Dataset</h3>
+      <p>
+       This dataset consists of tweets from <strong>160 highly followed politicians</strong> across <strong> France, Germany, Italy, and the United 
+	   Kingdom</strong>, collected to study populist communication patterns. Politicians were selected based on party affiliation 
+	   following <strong> Norris (2020)</strong> and updated classifications of populist parties in recent literature. For each country, 
+	   the sample includes <strong>10 left-wing males, 10 left-wing females, 10 right-wing males, and 10 right-wing females</strong>. 
+	   Tweets were retrieved using the <strong>X (Twitter) API</strong> for the period <strong>February 1, 2022 – February 24, 2023</strong>, 
+	   covering the timeline of major geopolitical events. Gender was inferred from Twitter profile metadata, including pronouns and self-descriptions.
+	   The dataset is available <strong>upon request via email</strong> due to X guidelines.
+
+		
+      </p>
+      </div>
+	  
+	  
+	  <div class="dataset">
+      <h3>6. Educational Websites Web Tracking Dataset</h3>
+      <p>
+       This dataset comprises approximately <strong> 50,000 educational websites</strong>, with tracking data collected annually 
+	   from <strong>2013 to 2025</strong>. The final version includes only those websites for which <strong>tracker information is 
+	   consistently available across all years</strong>, enabling longitudinal analysis of web tracking trends in the education sector. 
+	   Each website was <strong>manually labelled</strong> as homepage, online learning platform, institutional site, language learning, 
+	   or essay writing service. The dataset is available <strong>upon request via email</strong>.
+      </p>
+      </div>
+	  
+	  <div class="dataset">
+      <h3>7. Netherlands WebTracking Dataset</h3>
+      <p>
+       The dataset includes information on all <strong>2.4m websites</strong> from the <strong>Netherlands</strong> and the <strong>trackers</strong> 
+	   embedded within them for the year <strong>2025</strong>. It provides detailed insights into the tracking technologies used across 
+	   Dutch web domains. The dataset is publicly available at <strong>[link]</strong>. 
+	   In addition, the <strong>complete website text</strong> has been collected to support deeper content and tracking analysis. 
+	   Access to the full text dataset can be provided upon request via <strong>email</strong>.
+      </p>
+      </div>
+	 
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 AlFa Lab</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+var typedLogo = new Typed('.typed-logo', {
+  strings: ["AlFa Research Lab"],
+  typeSpeed: 100,
+  backSpeed: 50,
+  showCursor: false,
+  loop: true
+});
+</script>
+
+</body>
+</html>
