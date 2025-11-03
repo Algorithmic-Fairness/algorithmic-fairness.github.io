@@ -156,10 +156,9 @@ margin-right: 6px;
 }
 /* collaboration--*/
 #collaborators {
-  margin: 60px auto;
-  max-width: 1200px;
-  text-align: center;
-  padding: 20px;
+  margin: 40px auto;
+  max-width: 1000px;   /* reduced from 1200px */
+  padding: 5px 0;
 }
 
 #collaborators h3 {
@@ -174,11 +173,12 @@ margin-right: 6px;
 .collab-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
+  justify-content: center;     
+  justify-items: center;       
   align-items: center;
-  justify-items: center;
+  column-gap: 0;               
+  row-gap: 10px;               
 }
-
 /* Medium screens: 2 per row */
 @media (max-width: 900px) {
   .collab-grid {
@@ -190,19 +190,20 @@ margin-right: 6px;
 @media (max-width: 600px) {
   .collab-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    column-gap: 0px;
+	
   }
 }
 
 /* Each Item */
 .collab-item {
-  text-align: center;
-  font-size: 10rem;
+  margin: 0;
+  padding: 5px 0;
 }
 
 .collab-item img {
-  width: 120px;
-  height: 120px;
+  width: 100px;           
+  height: auto;           
   object-fit: contain;
   border-radius: 12px;
   background-color: #fff;
