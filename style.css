@@ -176,8 +176,8 @@ margin-right: 6px;
   justify-content: center;     
   justify-items: center;       
   align-items: center;
-  column-gap: 0;               
-  row-gap: 10px;               
+  column-gap: 20px;               
+  row-gap: 15px;               
 }
 /* Medium screens: 2 per row */
 @media (max-width: 900px) {
@@ -190,7 +190,7 @@ margin-right: 6px;
 @media (max-width: 600px) {
   .collab-grid {
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0px;
+    column-gap: 20px;
 	
   }
 }
