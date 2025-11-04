@@ -202,8 +202,8 @@ margin-right: 6px;
 }
 
 .collab-item img {
-  width: 100px;           
-  height: auto;           
+  width: 150px;           
+  height: 150px;           
   object-fit: contain;
   border-radius: 12px;
   background-color: #fff;
